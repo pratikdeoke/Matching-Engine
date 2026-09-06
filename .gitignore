@@ -1,0 +1,43 @@
+# --- Build output -----------------------------------------------------
+build/
+build*/
+out/
+cmake-build-*/
+
+# CMake-generated files (in case a build ever runs in-source)
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+_deps/
+
+# --- Compiled binaries / objects ---------------------------------------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+te_tests
+te_bench
+te_bench_index
+te_gbench
+
+# --- Test / benchmark artifacts -----------------------------------------
+Testing/
+*.log
+*.journal
+
+# --- IDE / editor ---------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS junk -------------------------------------------------------------
+.DS_Store
+Thumbs.db
